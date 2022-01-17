@@ -1,0 +1,36 @@
+
+-------------------------------------------------------------------------
+
+Define IaC?
+
+* Infrastructure as Code allows you to build, change, and manage your infrastructure through coding instead of manual processes
+* The configuration files are created according to your infrastructure specifications
+
+-------------------------------------------------------------------------
+
+What do you mean by Terraform cloud?
+
+Terraform Cloud is a platform that enables teams to use Terraform together, either on-demand or in response to various events
+
+-------------------------------------------------------------------------
+
+What are modules in Terraform?
+
+* A jug for numerous resources that are used jointly is known as a module in Terraform. 
+* The root module includes resources mentioned in the .tf files and is required for every Terraform.
+
+-------------------------------------------------------------------------
+
+What is a Private Module Registry?
+
+* A Private Module Registry is a feature from Terraform Cloud that allows you to share Terraform modules across the organization.
+
+-------------------------------------------------------------------------
+
+When something goes wrong, how will you control and handle rollbacks in Terraform?
+
+* In our Version Control System, we need to recommit the previous code version to make it the new and current one. 
+* This would start the terraform run command, which would execute the old code. Because Terraform is more declarative, we will make sure that everything in the code reverts to its previous state. 
+* If the state file becomes corrupted, we would use Terraform Enterprise's State Rollback feature to restore the previous state
+
+-------------------------------------------------------------------------
